@@ -10,4 +10,7 @@ export default configureStore({
     currentGenreOrCategory: genreOrCategoryReducer,
     user: userReducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware({
+    serializableCheck: false,
+  }),
 });

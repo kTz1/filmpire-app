@@ -1,0 +1,14 @@
+::-webkit-scorllbar {
+    width: 7px;
+}
+
+::-webkit-scorllbar-track {
+    background: #cfcfcf
+}
+::-webkit-scorllbar-thumb {
+    background: #a5a5a5
+}
+
+* {
+    text-decoration: none;
+}
